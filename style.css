@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&family=Roboto+Condensed&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #7f5a83;
+    background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+
+
+
+
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+}
+
+input{
+    background-color: #b474bb;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(166, 173, 201, 0.2);
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+input::placeholder{
+    color: #bbb;
+
+}
+input:focus{
+    outline: none;
+}
+.card{
+    background-color: #b474bb;
+    background-image: linear-gradient(315deg, #8e5294 0%, #1b0d4d 100%);
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(166, 173, 201, 0.2);
+    display: flex;
+    padding: 3rem;
+    max-width: 800px;
+}
+
+
+.avatar{
+    border-radius: 50%;
+    border: 10px solid #8e5294 ;
+    height: 250px;
+    width: 250px;
+
+}
+
+.user-info{
+    color: #eee;
+    margin-left: 2rem;
+}
+.user-info h2{
+    margin-top: 0;
+}
+.user-info ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    list-style-type: none;
+    max-width: 400px;
+}
+.user-info ul li{
+    display: flex;
+    align-items: center;
+}
+.user-info ul li strong{
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+}
+.repo {
+    background-color: 
+    #370d4d;
+    border-radius: 5px;
+    display: inline-block;
+    color: white;
+    font-size: 0.7rem;
+    padding: 0.25rem 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+}
